@@ -2,10 +2,13 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = () => {
+   let moment = require('moment');
+    
     return (
-        <div class="title">
+        
+        <div className="title">
             <h1>Lambda School</h1>
-            <h2>@LambdaSchool 27 May</h2>
+            <h2>@LambdaSchool {moment().format("MMM Do YY")}</h2>
         </div>
     )
 }
