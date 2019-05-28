@@ -1,1 +1,44 @@
 /* All styles for your Card Components live here */
+.second-image img {
+    width: 525px;
+    position: relative;
+    bottom: 40px;
+    left: 55px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content h2 {
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.content p {
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+    top: 8px;
+    width: 500px;
+}
+
+.content h6 {
+    font-size: 14px;
+    color: gray;
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+}
+
+.content {
+    width: 525px;
+    height: 110px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 60px;
+    left: 54px;
+}

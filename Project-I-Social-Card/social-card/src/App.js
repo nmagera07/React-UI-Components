@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail'
+import HeaderTitle from './components/HeaderComponents/HeaderTitle'
+import HeaderContent from './components/HeaderComponents/HeaderContent'
+import CardBanner from './components/CardComponents/CardBanner'
+import CardContent from './components/CardComponents/CardContent'
 
 const App = () => {
   return (
@@ -17,6 +22,11 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <ImageThumbnail />
+      <HeaderTitle />
+      <HeaderContent />
+      <CardBanner />
+      <CardContent />
     </div>
   );
 };
