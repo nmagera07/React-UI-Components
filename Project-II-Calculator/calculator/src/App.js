@@ -9,9 +9,8 @@ function App() {
   const numberButton1 = {num: '7', num2: '8', num3: '9'}
   const numberButton2 = {num: '4', num2: '5', num3: '6'}
   const numberButton3 = {num: '1', num2: '2', num3: '3'}
-  const numberButton4 = {num4: '0'}
   const actionButton1 = {action: 'clear', action2: '0'}
-  const operators = {opt: '', opt2: 'x', opt3: '-', opt4: '+', opt5: '='}
+  const operators = {opt: '%', opt2: 'x', opt3: '-', opt4: '+', opt5: '='}
   
   return (
     <div className="App">
