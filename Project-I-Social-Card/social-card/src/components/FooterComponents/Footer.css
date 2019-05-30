@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    left: 33.5%;
+    bottom: 45px;
+}
+
+.footer img {
+    height: 20px;
+    width: 20px;
+}
+
+.image2 {
+    position: relative;
+    left: 50px;
+}
+
+.image3 {
+    position: relative;
+    left: 100px;
+}
+
+.image4 {
+    position: relative;
+    left: 150px;
+}
